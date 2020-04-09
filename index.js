@@ -6,10 +6,10 @@ const YouTube = require('simple-youtube-api');
 
 const bot = new Discord.Client();
 
-const youtube = new YouTube('AIzaSyCpCyUimZXwwl_eRTfXxWo_piC8VGgolNs');
+const youtube = new YouTube();
 
 //Bot token, allows the program to log in the account.
-const token = 'NTk5ODIwMTA2ODUxNDE4MTMz.XSq2HA.MuwT65VaST-qB5khfWTtTVG140c';
+const token = #;
 
 //Creates prefix and queue constants. Makes the queue an array of key-value pairs.
 const queue = new Map();
